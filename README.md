@@ -1,4 +1,4 @@
-# httpd - Hardening the Official docker image
+# A hardened apache docker image 
 See this sample docker-compose.yml to understand how to use this image:
 ```
 httpd-hardened:
