@@ -25,7 +25,7 @@ cd httpd-hardened
 docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)
 docker rmi --force $(docker images -q)
 docker build . -t nestoru/httpd-hardened:0.1
-docker tag nestoru/httpd-hardened:0.1 nesetoru/httpd-hardened:0.1
+docker tag nestoru/httpd-hardened:0.1 nestoru/httpd-hardened:0.1
 docker push nestoru/httpd-hardened:0.1
 ```
 
